@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { BudgetGeneratorComponent } from './pages/budget-generator/budget-generator.component';
 import { ReportGeneratorComponent } from './pages/report-generator/report-generator.component';
 import { SettingsComponent } from './pages/settings/settings.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SettingsComponent } from './pages/settings/settings.component';
     HomeComponent,
     BudgetGeneratorComponent,
     ReportGeneratorComponent,
-    SettingsComponent
+    SettingsComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

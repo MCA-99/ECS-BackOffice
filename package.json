@@ -20,6 +20,7 @@
     "@angular/router": "~12.1.0",
     "bootstrap": "^5.1.1",
     "bootstrap-icons": "^1.5.0",
+    "bootstrap-switch-button": "^1.1.0",
     "feather-icons": "^4.28.0",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",

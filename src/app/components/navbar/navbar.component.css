@@ -2,10 +2,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 img {
     margin-right: 10px;
+    border-radius: 10px;
 }
 
 button {

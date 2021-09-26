@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BudgetGeneratorComponent } from './pages/budget-generator/budget-generator.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HelpComponent } from './pages/help/help.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ReportGeneratorComponent } from './pages/report-generator/report-generator.component';
@@ -10,6 +11,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'help', component: HelpComponent },
+  { path: 'dashboard', component: DashboardComponent },
   { path: 'budget', component: BudgetGeneratorComponent },
   { path: 'report', component: ReportGeneratorComponent },
   { path: 'settings', component: SettingsComponent }
